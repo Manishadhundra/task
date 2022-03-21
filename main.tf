@@ -1,6 +1,6 @@
 provider "aws" {
-    access_key= AKIAU5XOOTIGQFYJM5VM
-    secret_key= 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
+    access_key= 
+    secret_key=
     region    = eu-west-2
 }
 
@@ -10,7 +10,7 @@ data "aws_vpc" "VPC" {
 
 
 resource "aws_instance" "jenkins_server" {
-  ami           = ami-0015a39e4b7c0966f
+  ami           = 
   instance_type = t2.micro
 
   key_name = var.manisha_laptop
